@@ -209,21 +209,3 @@ section {
 		}
 	}
 }
-
-#home-cta {
-	color: $white;
-	background-color: $primary;
-	display: flex;
-	justify-content: center;
-
-	.content {
-		max-width: 700px;
-		text-align: center;
-
-		h2 {
-			@include media-breakpoint-up(lg) {
-				font-size: 3em;
-			}
-		}
-	}
-}
