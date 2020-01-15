@@ -1,5 +1,7 @@
-# parcel-bootstrap-starter
-Starter setup for Parcel.js with Bootstrap & SASS.
+# Emerald Travels Homepage
+A travel agency page built with customized Bootstrap 4 utilizing Parcel.js workflow.
+
+Live version: https://emerald-travels.netlify.com/
 
 # Getting Started
 As simple as forking this repo and starting with your project.
