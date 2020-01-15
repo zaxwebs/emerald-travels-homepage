@@ -136,7 +136,7 @@ section {
 		justify-content: flex-end;
 		max-width: 600px;
 
-		@include media-breakpoint-up(lg) {
+		@include media-breakpoint-up(xl) {
 			max-width: 800px;
 		}
 
@@ -190,7 +190,7 @@ section {
 	padding: 0 0;
 
 	#features-image {
-		@include bg-cover('../images/floater.jpg');
+		@include bg-cover('../images/canada.jpg');
 		background-attachment: fixed;
 		min-height: 300px;
 	}
@@ -207,5 +207,11 @@ section {
 				margin-left: -100px;
 			}
 		}
+	}
+}
+
+#home-cta {
+	.container {
+		max-width: 900px;
 	}
 }
