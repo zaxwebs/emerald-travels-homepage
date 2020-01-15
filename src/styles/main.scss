@@ -204,7 +204,7 @@ section {
 
 	#features-image {
 		@include bg-cover('../images/canada.jpg');
-		background-attachment: fixed;
+		//background-attachment: fixed;
 		min-height: 300px;
 	}
 
