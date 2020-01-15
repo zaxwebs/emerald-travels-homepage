@@ -54,6 +54,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 section {
 	padding: (4 * $spacer) 0;
 }
