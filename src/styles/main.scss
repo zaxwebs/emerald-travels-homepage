@@ -54,6 +54,7 @@ html {
 	scroll-behavior: smooth;
 }
 
+html,
 body {
 	overflow-x: hidden;
 }
@@ -158,6 +159,7 @@ section {
 	.intro {
 		min-height: calc(70vh - 28px);
 		background: rgba(0, 0, 0, 0.5);
+		overflow-x: hidden;
 
 		.content {
 			h1 {
@@ -169,6 +171,7 @@ section {
 	}
 
 	.cta {
+		overflow-x: hidden;
 		color: $body-color;
 		background-color: $white;
 		min-height: calc(30vh - 28px);
@@ -187,6 +190,12 @@ section {
 			flex-wrap: wrap;
 			margin-bottom: $spacer;
 		}
+	}
+}
+
+#home-explore {
+	a {
+		overflow-x: hidden;
 	}
 }
 
