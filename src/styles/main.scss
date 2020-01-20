@@ -1,6 +1,8 @@
+// custom fonts
+@import url('https://rsms.me/inter/inter.css');
+
 // Bootstrap v4.4.1 (https://getbootstrap.com/)
 // You can comment out features you don't need to optimize load times
-
 @import '../../node_modules/bootstrap/scss/functions';
 @import 'variables.scss'; // you can set new variables as well as override defaults from bootstrap
 @import '../../node_modules/bootstrap/scss/variables';
@@ -50,6 +52,7 @@
 // ================== Custom styles here ==================
 
 // BASE
+
 html {
 	scroll-behavior: smooth;
 }
