@@ -60,7 +60,11 @@ body {
 }
 
 section {
-	padding: (5 * $spacer) 0;
+	padding: (4 * $spacer) 0;
+
+	@include media-breakpoint-up(xl) {
+		padding: (5 * $spacer) 0;
+	}
 }
 
 // UTILS
