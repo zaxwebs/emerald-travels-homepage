@@ -54,6 +54,8 @@
 // BASE
 
 html {
+	font-family: $font-family-base;
+	font-display: swap;
 	scroll-behavior: smooth;
 }
 
