@@ -143,6 +143,7 @@ section {
 
 		@include media-breakpoint-up(xl) {
 			max-width: 800px;
+			padding-right: 4 * $spacer;
 		}
 
 		.content {
@@ -163,6 +164,7 @@ section {
 
 		.content {
 			h1 {
+				font-size: 3em;
 				@include media-breakpoint-up(lg) {
 					font-size: 6em;
 				}
