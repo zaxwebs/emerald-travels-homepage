@@ -127,7 +127,7 @@ section {
 
 #home-cover {
 	padding: 0 0;
-	min-height: calc(100vh - 56px);
+	min-height: calc(100vh - 74px);
 	color: $white;
 	background-color: $primary;
 	@include bg-cover('../images/red-hoodie-man.jpg');
@@ -162,7 +162,7 @@ section {
 	}
 
 	.intro {
-		min-height: calc(70vh - 28px);
+		min-height: calc(70vh - 37px);
 		background: rgba(0, 0, 0, 0.5);
 		overflow-x: hidden;
 
@@ -180,7 +180,7 @@ section {
 		overflow-x: hidden;
 		color: $body-color;
 		background-color: $white;
-		min-height: calc(30vh - 28px);
+		min-height: calc(30vh - 37px);
 
 		div.heading {
 			font-size: $h3-font-size;
