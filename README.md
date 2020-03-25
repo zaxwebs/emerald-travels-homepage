@@ -1,10 +1,7 @@
 # Emerald Travels Homepage
-A travel agency page built with customized Bootstrap 4 utilizing Parcel.js workflow.
+A travel agency page built with customized Bootstrap 4 utilizing Parcel.js workflow (scafolded with [Parcel Bootstrap Starter](https://github.com/zaxwebs/parcel-bootstrap-starter)).
 
 Live version: https://emerald-travels.netlify.com/
-
-# Getting Started
-As simple as forking this repo and starting with your project.
 
 # Commands
 * ```npm start``` - Initialize parcel.
